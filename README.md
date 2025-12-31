@@ -24,17 +24,17 @@
 
 ## 📁 Folder Structure
 
-All-Tab-Summary/
-├── background.js
-├── contentScript.js
-├── manifest.json
-├── sidebar.html
-├── sidebar.js
-├── sidebar.css
-└── icons/
-├── icon16.png
-├── icon48.png
-└── icon128.png
+    └── TabStack/
+        ├── background.js
+        ├── contentScript.js
+        ├── manifest.json
+        ├── sidebar.html
+        ├── sidebar.js
+        ├── sidebar.css
+        └── icons/
+            ├── icon16.png
+            ├── icon48.png
+            └── icon128.png
 
 ---
 
@@ -55,7 +55,7 @@ All-Tab-Summary/
 
 - When the extension icon is clicked, it opens the **side panel**.
 - It queries all tabs and injects a `contentScript.js` file into each (excluding restricted URLs).
-- The script extracts the **title** and **meta description** of each tab and sends it to `sidebar.js`.
+- The script extracts the **title** and **description** of each tab and sends it to `sidebar.js`.
 - You can **add/remove** any summary as a **task**.
 - All tasks are stored locally and persist even if the panel is closed.
 
