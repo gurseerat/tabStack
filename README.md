@@ -1,6 +1,6 @@
 # 🔍 AllTab Summary
 
-**AllTab Summary** is a Chrome extension that opens a side panel and summarizes all open tabs by extracting their titles and meta descriptions. It also allows you to selectively save important tabs as "tasks" for later reference.
+**TabStack** is a Chrome extension that opens a side panel and summarizes all open tabs by extracting their titles and meta descriptions. It also allows you to selectively save important tabs as "tasks" for later reference.
 
 ---
 
